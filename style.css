@@ -7,13 +7,13 @@ body {
     /* body에 남아있는 여백 날리기! */
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
-.container {
+.ascii-container {
     display: flex;
     justify-content: center;
     align-items: center;
-
     background-image:url(./img/matrix.jpg);
     
 }
@@ -71,4 +71,15 @@ div {
     position: absolute;
     left: 35%;
     top: 70%;
+}
+
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position : absolute;
+    left: 30%;
+    top: 30%;
 }

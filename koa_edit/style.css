@@ -7,7 +7,7 @@ body {
     /* body에 남아있는 여백 날리기! */
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+
     /* body에서 양쪽으로 넘어가지 못하도록 제한했어요. */
 }
 
