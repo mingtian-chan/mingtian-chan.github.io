@@ -73,9 +73,9 @@ a {
 
 }
 #me{
-    position: absolute;
-    bottom: -0.3px;
-    left: 0%;
+    position: fixed;
+    bottom: -13%;
+    left: 11.8%;
 }
 
 
@@ -87,9 +87,9 @@ a {
     justify-content: center;
     align-items:center;
 
-    position: absolute;
+    position: fixed;
     left: 55%;
-    top: 20%;
+    top: 60%;
 }
 
 #diver{
@@ -100,9 +100,9 @@ a {
     justify-content: center;
     align-items:center;
 
-    position: absolute;
-    left: 0%;
-    top: 60%;
+    position: fixed;
+    left: 20%;
+    top: 75%;
 }
 
 
