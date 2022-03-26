@@ -41,12 +41,12 @@
 </head>
 <body>
     <p>
-        <img src="img/mobius.jpg" onclick="alert">
-        <a class="red" href="main.html">
+        <img src="img/mobius.jpg">
+        <a class="red" href="main.html" onclick="alert('빨간약을 골랐습니다,\n어떤 남자가 눈 앞에 나타납니다.') " style="cursor:pointer;">
             <img src="img/pill_red.png">
         </a>
-        <a class="blue">
-            <img src="img/pill_blue.png">
+        <a class="blue"onClick="alert('파란약을 골랐습니다,\n당신은 다시 편한 휴식을 취합니다.')" style="cursor:pointer;">
+            <img src="img/pill_blue.png"onClick="window.close()" >
         </a>
     </p>
 </body>
