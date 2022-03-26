@@ -26,7 +26,7 @@ body {
     justify-content: center;
 
 
-    width: 55%;
+    width: max-content;
     color : #44A246;
     background-color: black;
 
@@ -35,6 +35,11 @@ body {
 .ascii-art > p {
     text-align: left;
     width: 100%;
+
+    font-size: 13px;
+    line-height: normal;
+    letter-spacing: 2px;
+
 }
 
 div {
@@ -47,6 +52,18 @@ div {
     background-color: white;
 }
 
+a {
+
+    justify-content: center;
+    align-items:center;
+
+    color: white;
+    width: fit-content;
+    height: fit-content;
+
+}
+
+
 #enfp{
     margin: 0;
     padding: 0;
@@ -56,8 +73,8 @@ div {
     align-items:center;
 
     position: absolute;
-    left: 60%;
-    top: 50%;
+    left: 50%;
+    top: 45%;
 }
 
 #diver{
@@ -69,7 +86,7 @@ div {
     align-items:center;
 
     position: absolute;
-    left: 35%;
+    left: 0%;
     top: 70%;
 }
 
