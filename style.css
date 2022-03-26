@@ -8,7 +8,9 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    font-family: "나눔 고딕";
 }
+
 
 .ascii-container {
     display: flex;
@@ -25,7 +27,7 @@ body {
 
     position : absolute;
     justify-content: center;
-    bottom: 0%;
+    bottom: 10%;
 
 
     width: max-content;
@@ -38,6 +40,7 @@ body {
 
 .ascii-art > p {
 
+    z-index: 1;
     margin :0;
 
 
@@ -57,8 +60,7 @@ div {
     justify-content: center;
     align-items:center;
 
-    color: white;
-    background-color: white;
+
 }
 
 a {
@@ -67,41 +69,117 @@ a {
     justify-content: center;
     align-items:center;
 
-    color: white;
+
     width: fit-content;
     height: fit-content;
 
 }
 
-#enfp{
+#chan {
+    z-index: 5;
     margin: 0;
     padding: 0;
 
-    /* display : flex; */
+    display : flex;
     justify-content: center;
     align-items:center;
-
-    position: fixed;
-    left: 55%;
-    top: 60%;
-}
-#diver{
-    margin: 0;
-    padding: 0;
-
-    /* display : flex; */
-    justify-content: center;
-    align-items:center;
+    background-color: rgba( 0, 0,0 , 0.8 );
 
     position: fixed;
     left: 20%;
-    top: 75%;
+    top: 15%;
+    height: fit-content;
+
+}
+
+#MBTI {
+    z-index: 4;
+    margin: 0;
+    padding: 0;
+
+    display : flex;
+    justify-content: center;
+    align-items:center;
+    background-color: rgba( 0, 0,0 , 0.8 );
+
+    position: fixed;
+    left: 20%;
+    top: 35%;
+    height: fit-content;
+
+}
+
+#game {
+    z-index: 3;
+    margin: 0;
+    padding: 0;
+
+    display : flex;
+    justify-content: center;
+    align-items:center;
+    background-color: rgba( 0, 0,0 , 0.8 );
+
+    position: fixed;
+    left: 20%;
+    top: 55%;
+    height: fit-content;
+
+}
+#hair {
+    z-index: 5;
+    margin: 0;
+    padding: 0;
+
+    display : flex;
+    justify-content: center;
+    align-items:center;
+    background-color: rgba( 0, 0,0 , 0.8 );
+
+    position: fixed;
+    left: 60%;
+    top: 15%;
+    height: fit-content;
+
+}
+
+#blog {
+    z-index: 4;
+    margin: 0;
+    padding: 0;
+
+    display : flex;
+    justify-content: center;
+    align-items:center;
+    background-color: rgba( 0, 0,0 , 0.8 );
+
+    position: fixed;
+    left: 60%;
+    top: 35%;
+    height: fit-content;
+
+}
+#diver{
+    z-index: 3;
+    margin: 0;
+    padding: 0;
+
+    display : flex;
+    justify-content: center;
+    align-items:center;
+    background-color: rgba( 0, 0,0 , 0.8 );
+
+    position: fixed;
+    left: 60%;
+    top: 55%;
+    height: fit-content;
 }
 
 .me{
-    position: fixed;
-    bottom: -7%;
-    left: 11.8%;
+    z-index: 2;
+
+    position: absolute;
+    bottom: -1%;
+    left: -10%;
 }
 .me:hover {
     opacity: 0;
