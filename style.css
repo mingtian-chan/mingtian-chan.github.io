@@ -14,33 +14,42 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image:url(./img/matrix.jpg);
+    
     
 }
 
 .ascii-art {
+
     font-family: monospace;
     white-space: pre;
 
-    position : relative;
+    position : absolute;
     justify-content: center;
+    bottom: 0%;
 
 
     width: max-content;
     color : #44A246;
-    background-color: black;
+    background-color: #ffffff;
+    background-color: rgba( 255, 255, 255, 0 );
+
 
 }
 
 .ascii-art > p {
+
+    margin :0;
+
+
     text-align: left;
     width: 100%;
 
     font-size: 13px;
-    line-height: normal;
+    line-height: 10px;
     letter-spacing: 2px;
 
 }
+
 
 div {
 
@@ -53,6 +62,7 @@ div {
 }
 
 a {
+    text-decoration: none;
 
     justify-content: center;
     align-items:center;
@@ -61,6 +71,11 @@ a {
     width: fit-content;
     height: fit-content;
 
+}
+#me{
+    position: absolute;
+    bottom: -0.3px;
+    left: 0%;
 }
 
 
@@ -73,8 +88,8 @@ a {
     align-items:center;
 
     position: absolute;
-    left: 50%;
-    top: 45%;
+    left: 55%;
+    top: 20%;
 }
 
 #diver{
@@ -87,11 +102,12 @@ a {
 
     position: absolute;
     left: 0%;
-    top: 70%;
+    top: 60%;
 }
 
 
 .button {
+
     display: flex;
     justify-content: center;
     align-items: center;
