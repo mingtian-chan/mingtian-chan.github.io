@@ -78,24 +78,22 @@ a {
 
 details {
     font: 16px "cursive","나눔 고딕";
-    width: 620px;
+    width: 500px;
+    height: 30px;
+
   }
   
   details > summary {
     padding: 2px 6px;
-    width: 15em;
 
-    border: none;
+
+    border: 1  #44A246; 
     cursor: pointer;
   }
   
   details > p {
-    border-radius: 0 0 10px 10px;
-
     padding: 2px 6px;
-    margin: 0;
-
-  }
+  } 
 
 #chan {
     z-index: 5;
@@ -114,7 +112,7 @@ details {
 
 }
 
-#MBTI {
+#game {
     z-index: 4;
     margin: 0;
     padding: 0;
@@ -131,7 +129,7 @@ details {
 
 }
 
-#game {
+#MBTI {
     z-index: 3;
     margin: 0;
     padding: 0;
@@ -147,6 +145,7 @@ details {
     height: fit-content;
 
 }
+
 #hair {
     z-index: 5;
     margin: 0;
