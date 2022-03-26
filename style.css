@@ -72,12 +72,6 @@ a {
     height: fit-content;
 
 }
-#me{
-    position: fixed;
-    bottom: -13%;
-    left: 11.8%;
-}
-
 
 #enfp{
     margin: 0;
@@ -103,6 +97,16 @@ a {
     position: fixed;
     left: 20%;
     top: 75%;
+}
+
+.me{
+    position: fixed;
+    bottom: -7%;
+    left: 11.8%;
+}
+.me:hover {
+    opacity: 0;
+    transition: 1s;
 }
 
 
